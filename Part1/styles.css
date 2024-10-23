@@ -12,11 +12,30 @@ body {
 }
 
 header {
-    background: #4CAF50;
+    background: #69c1e8;
     color: white;
     padding: 10px 20px;
     text-align: center;
 }
+
+.about-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 20px 0;
+}
+
+.about-text {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.about-image img {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
 
 nav ul {
     list-style-type: none;
@@ -72,7 +91,7 @@ footer {
 }
 
 footer a {
-    color: #4CAF50;
+    color: #69c1e8;
     text-decoration: none;
 }
 
