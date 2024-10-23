@@ -95,6 +95,67 @@ footer a {
     text-decoration: none;
 }
 
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    padding-left: 0; 
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+h4 {
+    margin-left: 10px;
+}
+
+ul li {
+    margin-left: 40px;
+}
+
+/* General container for restaurant sections */
+.restaurant {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 20px; /* Reduced padding */
+}
+
+/* Style for restaurant text */
+.restaurant-text {
+    flex: 1;
+    padding-right: 20px; /* Slight padding between text and images */
+}
+
+/* Style for multiple images in a row */
+.restaurant-image {
+    display: flex;
+    gap: 200px; /* Space between images */
+    flex-wrap: wrap; /* Allow images to wrap if there are more than two */
+}
+
+/* Style for each image */
+.restaurant-image img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+/* Make images responsive */
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.restaurant-image {
+    flex-shrink: 0;
+    margin-left: 10px;
+}
+
 footer a:hover {
     text-decoration: underline;
+    
 }
